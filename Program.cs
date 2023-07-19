@@ -1112,3 +1112,37 @@ namespace helloApp
         }
     }
 }
+//Задача 42:
+//Нарисуйте треугольник по введенным данным
+//Решение:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Doshik
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите длину: ");
+            int height = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Введите ширину: ");
+            //int width = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write("#");
+                }
+                Console.WriteLine();
+            }
+
+        }
+    }
+}
