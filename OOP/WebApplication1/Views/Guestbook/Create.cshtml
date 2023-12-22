@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Добавить новую запись";
+}
+
+<h2>Добавить новое сообщение</h2>
+    @Html.ValidationSummary()
+    @using (Html.BeginForm())
+                {
+                    <fieldset>
+                        Введите ваше имя:
+                        <br />
+                        @Html.TextBox("Name")
+                        <br />
+                        <br />
+                        Введите ваше сообщение:
+                        <br />
+                        @Html.TextArea("Message", new {rows=10, cols=40})
+                        <br />
+                        <br />
+                        <input type="submit" value="Добавить сообщение" />
+                    </fieldset>
+                }
+
+

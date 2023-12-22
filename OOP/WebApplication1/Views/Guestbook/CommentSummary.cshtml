@@ -1,0 +1,57 @@
+﻿@using WebApplication1.Models
+@model List<CommentSummary>
+
+@{
+    ViewBag.Title = "Comment Summary";
+}
+
+<h1>Comment Summary</h1>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Имя пользователя
+            </th>
+            <th>
+                Количество сообщений
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfComments)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*<h2>Добавить новое сообщение</h2>
+    @Html.ValidationSummary()
+    @using (Html.BeginForm())
+                {
+                    <fieldset>
+                        Введите ваше имя:
+                        <br />
+                        @Html.TextBox("Name")
+                        <br />
+                        <br />
+                        Введите ваше сообщение:
+                        <br />
+                        @Html.TextArea("Message", new {rows=10, cols=40})
+                        <br />
+                        <br />
+                        <input type="submit" value="Добавить сообщение" />
+                    </fieldset>
+                }
+*@

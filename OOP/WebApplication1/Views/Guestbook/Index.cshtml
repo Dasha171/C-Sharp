@@ -1,0 +1,25 @@
+﻿@using WebApplication1.Models
+@model List<GuestbookEntry>
+@{
+    ViewBag.Title = "list";
+}
+
+<h2>Моя гостевая книга</h2>
+<p>
+    @*  <a href="@Url.Action("Create", "Guestbook")">Добавить новую запись</a>*@
+    @*<a href="/Guestbook/Create">Добавить новую запись</a>*@
+    <a href="@Url.Action("Create", "Guestbook")">Добавить новую запись</a>
+
+
+</p>
+@foreach (GuestbookEntry entry in Model)
+{
+                   <div class="entry">
+                       <div class="message">
+                           @Html.ActionLink(entry.Message, "Show", new {id = entry.Id})
+                       </div>
+                       <div class="author">
+                           Posted by @entry.Name on @entry.DateAdded.ToLongDateString()
+                       </div>
+                   </div>
+}

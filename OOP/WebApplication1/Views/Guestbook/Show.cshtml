@@ -1,0 +1,39 @@
+﻿@using WebApplication1.Models
+@model GuestbookEntry
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Guestbook Entry</h2>
+<dl>
+    <dt>Name: </dt>
+    <dd>@Model.Name</dd>
+    <dt>Date Added: </dt>
+    <dd>@Model.DateAdded</dd>
+    <dt>Message: </dt>
+    <dd>@Model.Message</dd>
+</dl>
+
+<p>
+    @*    @{
+            bool hasPermission = (bool)ViewData["hasPermission"];
+        }
+        @if (hasPermission)
+        {
+            @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+        }*@
+
+
+    @* @if (ViewBag.HasPermission)
+                {
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+                }
+
+        @Html.ActionLink("Back to Entries", "Index")*@
+
+    @if (ViewBag.HasPermission != null && ViewBag.HasPermission)
+    {
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+    }
+    @Html.ActionLink("Back to Entries", "Index")
+</p>

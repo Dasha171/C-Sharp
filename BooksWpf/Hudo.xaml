@@ -1,0 +1,44 @@
+﻿<Window x:Class="BooksWpf.Hudo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooksWpf"
+        mc:Ignorable="d"
+        Title="Hudo" Height="600" Width="800">
+    <Grid Background="Black">
+        <Label Margin="40,30" Content="Русская литература" Foreground="White" FontSize="20"/>
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="550"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="35"/>
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" Margin="28,57,-52,0" MaxHeight="200" MaxWidth="550" VerticalAlignment="Top" Padding="30" CornerRadius="20" Height="163" Background="#FF171717" Grid.RowSpan="2">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="60" Color="#FFC2C2C2" ShadowDepth="0"/>
+                </Border.Effect>
+                <StackPanel>
+
+                </StackPanel>
+            </Border>
+
+            <Label  Margin="23,40,23,0" Grid.Row="1" Content="Советская литература" Foreground="White" FontSize="20"/>
+            <Border Grid.Row="2" Margin="28,10,-40,0" MaxHeight="200" MaxWidth="550" VerticalAlignment="Top" Padding="30" CornerRadius="20" Height="156" Background="#FF171717">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="60" Color="#FFC2C2C2" ShadowDepth="0"/>
+                </Border.Effect>
+                <StackPanel>
+
+
+                </StackPanel>
+            </Border>
+        </Grid>
+
+
+    </Grid>
+</Window>
