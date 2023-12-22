@@ -1,0 +1,38 @@
+﻿@page
+@model List<Product>
+
+<h2>Распродажа спортивных товаров</h2>
+<table>
+    <tr>
+        <td><p>Название товара</p></td>
+        <td><p>Описание</p></td>
+        <td><p>Категория</p></td>
+        <td><p>Цена</p></td>
+        <td></td>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td><p>@product.Name</p></td>
+            <td><p>@product.Description</p></td>
+            <td><p>@product.Category</p></td>
+            <td><p>@product.Price</p></td>
+            <td><p><a href="/Home/Buy/@product.Id">Купить</a></p></td>
+        </tr>
+    }
+</table>
+
+
+
+
+@*@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+*@

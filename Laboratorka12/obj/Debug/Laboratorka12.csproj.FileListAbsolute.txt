@@ -1,0 +1,8 @@
+D:\VStudio\колледж\Laboratorka12\obj\Debug\Laboratorka12.csproj.AssemblyReference.cache
+D:\VStudio\колледж\Laboratorka12\obj\Debug\Laboratorka12.csproj.SuggestedBindingRedirects.cache
+D:\VStudio\колледж\Laboratorka12\obj\Debug\Laboratorka12.csproj.CoreCompileInputs.cache
+D:\VStudio\колледж\Laboratorka12\bin\Debug\Laboratorka12.exe.config
+D:\VStudio\колледж\Laboratorka12\bin\Debug\Laboratorka12.exe
+D:\VStudio\колледж\Laboratorka12\bin\Debug\Laboratorka12.pdb
+D:\VStudio\колледж\Laboratorka12\obj\Debug\Laboratorka12.exe
+D:\VStudio\колледж\Laboratorka12\obj\Debug\Laboratorka12.pdb

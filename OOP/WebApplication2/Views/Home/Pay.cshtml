@@ -1,0 +1,33 @@
+﻿@model WebApplication2.Models.OrderViewModel
+
+@{
+    ViewBag.Title = "Zakaz";
+}
+
+<h2>Оформление заказа</h2>
+
+@using (Html.BeginForm("CompleteOrder", "Home", FormMethod.Post))
+{
+    <div>
+        <label for="FullName">ФИО:</label>
+        <input type="text" name="FullName" required />
+    </div>
+    <br />
+    <div>
+        <label for="Address">Адрес:</label>
+        <input type="text" name="Address" required />
+    </div>
+    <br />
+    <div>
+        <label for="CardNumber">Номер карты:</label>
+        <input type="text" name="CardNumber" required pattern="\d{8}" title="Номер карты должен состоять из 8 цифр" />
+    </div>
+    <br />
+    <div>
+        <input type="submit" value="Заказать" />
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

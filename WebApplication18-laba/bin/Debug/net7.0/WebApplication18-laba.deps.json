@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebApplication18-laba/1.0.0": {
+        "runtime": {
+          "WebApplication18-laba.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication18-laba/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

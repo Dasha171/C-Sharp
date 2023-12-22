@@ -1,0 +1,8 @@
+D:\VStudio\колледж\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+D:\VStudio\колледж\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\VStudio\колледж\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\VStudio\колледж\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+D:\VStudio\колледж\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+D:\VStudio\колледж\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+D:\VStudio\колледж\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\VStudio\колледж\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

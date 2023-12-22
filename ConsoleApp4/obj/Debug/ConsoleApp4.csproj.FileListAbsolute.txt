@@ -1,0 +1,8 @@
+D:\VStudio\колледж\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+D:\VStudio\колледж\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.SuggestedBindingRedirects.cache
+D:\VStudio\колледж\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\VStudio\колледж\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+D:\VStudio\колледж\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+D:\VStudio\колледж\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+D:\VStudio\колледж\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+D:\VStudio\колледж\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

@@ -1,0 +1,12 @@
+D:\VStudio\колледж\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\VStudio\колледж\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\VStudio\колледж\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\VStudio\колледж\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources

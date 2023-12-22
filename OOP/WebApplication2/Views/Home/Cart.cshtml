@@ -1,0 +1,47 @@
+﻿@model List<WebApplication2.Models.Table>
+
+@{
+    ViewBag.Title = "Cart";
+}
+<p>@TempData["Message"]</p>
+<h2>Your Shopping Cart</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Article</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>@item.Article</td>
+                <td>
+                    <form method="post" action="@Url.Action("Pay", "Home")">
+                        <button type="submit" class="btn btn-primary">Pay</button>
+                    </form>
+                    <br />
+                    <form method="post" action="@Url.Action("DeleteFromCart", "Home", new { id = item.FlowerId })">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>Your cart is empty.</p>
+
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

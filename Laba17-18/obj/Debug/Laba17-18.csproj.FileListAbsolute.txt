@@ -1,0 +1,8 @@
+D:\VStudio\колледж\Laba17-18\obj\Debug\Laba17-18.csproj.AssemblyReference.cache
+D:\VStudio\колледж\Laba17-18\obj\Debug\Laba17-18.csproj.SuggestedBindingRedirects.cache
+D:\VStudio\колледж\Laba17-18\obj\Debug\Laba17-18.csproj.CoreCompileInputs.cache
+D:\VStudio\колледж\Laba17-18\bin\Debug\Laba17-18.exe.config
+D:\VStudio\колледж\Laba17-18\bin\Debug\Laba17-18.exe
+D:\VStudio\колледж\Laba17-18\bin\Debug\Laba17-18.pdb
+D:\VStudio\колледж\Laba17-18\obj\Debug\Laba17-18.exe
+D:\VStudio\колледж\Laba17-18\obj\Debug\Laba17-18.pdb
